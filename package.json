@@ -1,11 +1,21 @@
 {
   "name": "create-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A basic CLI app",
+  "main": "src/index.js",
+  "bin": {
+    "supercoder1111/create-project": "bin/create.project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
 }
