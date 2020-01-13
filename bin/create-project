@@ -1,5 +1,11 @@
 #!/usr/bin/env node
 
+// shebang followed by full path to interpreter name
+// env instructs to look for node command installed globally outside this specific location usr/bin
+// is the first line in an executable plain text file in Unix platforms
+// it tells the system what interpreter to execute the file with, says script to be executed by Node
+// need this line to invoke Node file or script directly
+
 // require esm module that is an ECMAScript module loader, allows us to import other files
 require = require('esm')(module /*, options*/)
 
