@@ -1,6 +1,10 @@
 import arg from 'arg'
 import inquirer from 'inquirer';
 
+// functions to parse arguments into an options object and handle inputs passed to the script
+
+// after run CLI command create-project, will be prompted with below options
+
 function parseArgumentsIntoOptions(rawArgs){
   const args = arg(
     {
